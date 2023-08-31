@@ -6,9 +6,11 @@ let sub = a - b;
 let mul = a * b;
 let div = a / b;
 let exp = a ** b;
+let mod = a % b;
 
 console.log('6 + 3 =', sum, '--//----(сложение)');
 console.log('6 - 3 =', sub, '--//----(вычитание)');
 console.log('6 * 3 =', mul, '--//---(умножение)');
 console.log('6 / 3 =', div, '--//----(деление)');
 console.log('6 ** 3 =', exp, '--//-(возведение в степень)');
+console.log('6 % 3 =', mod, '--//-(остаток от деления)');
